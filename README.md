@@ -27,7 +27,7 @@ Automatically adds a BCC recipient to every message you send in Outlook
 ## Hosting
 
 The HTML/JS/icon files are served over HTTPS from **GitHub Pages**
-(`https://danames.github.io/outlook-bcc/`). Only `manifest.xml` is installed
+(`https://danames.com/outlook-bcc/`). Only `manifest.xml` is installed
 into Outlook; it points at those hosted files.
 
 ## Requirements

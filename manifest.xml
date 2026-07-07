@@ -12,9 +12,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Auto BCC"/>
   <Description DefaultValue="Automatically adds a BCC recipient to every message you send."/>
-  <IconUrl DefaultValue="https://danames.github.io/outlook-bcc/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://danames.github.io/outlook-bcc/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://danames.github.io/outlook-bcc/"/>
+  <IconUrl DefaultValue="https://danames.com/outlook-bcc/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://danames.com/outlook-bcc/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://danames.com/outlook-bcc/"/>
 
   <Hosts>
     <Host Name="Mailbox"/>
@@ -29,7 +29,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://danames.github.io/outlook-bcc/taskpane.html"/>
+        <SourceLocation DefaultValue="https://danames.com/outlook-bcc/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -103,15 +103,15 @@
 
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="https://danames.github.io/outlook-bcc/assets/icon-16.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://danames.github.io/outlook-bcc/assets/icon-32.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://danames.github.io/outlook-bcc/assets/icon-80.png"/>
+          <bt:Image id="Icon.16x16" DefaultValue="https://danames.com/outlook-bcc/assets/icon-16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://danames.com/outlook-bcc/assets/icon-32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://danames.com/outlook-bcc/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://danames.github.io/outlook-bcc/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://danames.github.io/outlook-bcc/taskpane.html"/>
-          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://danames.github.io/outlook-bcc/commands.html"/>
-          <bt:Url id="JSRuntime.Url" DefaultValue="https://danames.github.io/outlook-bcc/launchevent.js"/>
+          <bt:Url id="Commands.Url" DefaultValue="https://danames.com/outlook-bcc/commands.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://danames.com/outlook-bcc/taskpane.html"/>
+          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://danames.com/outlook-bcc/commands.html"/>
+          <bt:Url id="JSRuntime.Url" DefaultValue="https://danames.com/outlook-bcc/launchevent.js"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Auto BCC"/>
