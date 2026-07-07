@@ -1,5 +1,16 @@
 # Auto BCC — Outlook add-in
 
+> **Status (July 2026): shelved.** The add-in is correctly built and hosted, but
+> the target Microsoft 365 tenant (BYU) blocks the Office add-in runtime —
+> event-based (Smart Alerts) handlers never execute and task pane office.js API
+> calls fail. This affects **Microsoft's own hosted sample add-in identically**,
+> so it is an environment restriction, not a defect here. The auto-BCC need was
+> met instead with a **Power Automate flow** ("Auto-BCC sent mail"): trigger
+> *When a new email arrives (V3)* on **Sent Items** → condition *To does not
+> contain the archive address* (loop guard) → *Forward an email (V2)* to the
+> archive address. This add-in should work as designed on a tenant that permits
+> add-in runtimes.
+
 Automatically adds a BCC recipient to every message you send in Outlook
 (Microsoft 365 / Exchange mailboxes).
 
