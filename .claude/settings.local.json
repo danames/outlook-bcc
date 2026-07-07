@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(echo \"npm: $\\(npm --version 2>/dev/null || echo 'not installed'\\)\")",
+      "Bash(openssl version *)",
+      "Bash(echo \"openssl: $\\(openssl version 2>/dev/null || echo 'no'\\)\")",
+      "Read(//Users/danames/Library/Containers/com.microsoft.Outlook/Data/Documents/**)",
+      "WebSearch",
+      "Bash(uuidgen)",
+      "Bash(echo \"GUID: $\\(uuidgen\\)\")",
+      "Bash(mkdir -p assets)",
+      "Bash(python3 -)",
+      "Bash(file assets/*.png)",
+      "Bash(git config *)",
+      "Read(//Users/danames/**)",
+      "Bash(ssh -o BatchMode=yes -o ConnectTimeout=5 -o StrictHostKeyChecking=accept-new -T git@github.com)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
